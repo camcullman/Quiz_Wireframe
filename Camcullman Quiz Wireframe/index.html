@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" name="description" content="A skiing addicts take on the quiz app">
+
+<!-- Tab shows -->
+  <title>Do you even ski bra?</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <!-- API for google fonts shadows into light font - which I thought felt right for the tone of the quiz -->
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+  <div class="container">
+    <main>
+      <div class="start-page">
+        <h1>The skiers Quiz</h1>
+        <p>We've got 6 questions to see what you know about ski culture- should be totally sweet if you know your stuff!</p>
+                  <button type="submit">Begin!</button>
+        </form>
+      </div>
+
+
+      <div class="question-page">
+        <h1>Question 4/5</h1>
+        <p>how many skis are in a pair of skis</p>
+        <form action="/action_page.php">
+            <input type="radio" name="gender" value="male"> 1<br>
+            <input type="radio" name="gender" value="female"> 2<br>
+            <input type="radio" name="gender" value="other"> 3<br>  
+            <input type="submit" value="Submit">
+        </form>
+      </div>
+
+
+      <div class="answer-feedback-page">
+        <h1>Sorry, wrong answer</h1>
+        <form action="/action_page.php">
+            <input type="submit" value="next">
+        </form>
+        </div>
+      </div>
+      
+      <div class="final-feedback-page">
+        <h1>You did pretty good! 4/5 right!</h1>
+
+        <button class="restart-game">Let me go again!</button>
+      </div>
